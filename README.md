@@ -1,6 +1,6 @@
 # To Leak a Secret 2, Electric Boogaloo
 
-Ring signatures for a group of N members to generate a 1-of-N signature such
+Ring signatures allow for a group of N members to generate a 1-of-N signature such
 that no information about _which_ member of the group signed a given message.
 However, this depends on public key infrastructure, fortunately Ethereum
 provides public key infrastructure especially for Ethereum-related teams.
