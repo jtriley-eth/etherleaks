@@ -1,4 +1,4 @@
-# To Leak a Secret 2, Electric Boogaloo
+# How To Leak a Secret 2, Electric Boogaloo
 
 Ring signatures allow for a group of N members to generate a 1-of-N signature such
 that no information about _which_ member of the group signed a given message.
@@ -42,8 +42,8 @@ Procedures:
 
 ## Limitations
 
-This protocol enforces no notion of "truthfulness" of the statements signed, it
-only verifies that the signer is a member of the given set of addresses.
+Current implementation has no linkability, ie no way to link two signatures to
+the same singer like crypto-note.
 
 ## Ethereum Public Keys
 
